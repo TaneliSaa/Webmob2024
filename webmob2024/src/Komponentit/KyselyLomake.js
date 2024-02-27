@@ -6,7 +6,6 @@ const KyselyLomake = () => {
     return (
 
         <div style={{
-            border: "1px solid red",
             width: "80%",
             height: "80%",
             position: "absolute",
@@ -21,11 +20,17 @@ const KyselyLomake = () => {
             },
          }}>
 
-            <h1 style={{
-                color: 'white'
-             }}>
-                KyselyLomake
-            </h1>
+            <p style={{
+                fontSize: 25,
+                color: "white",
+                fontFamily: "Helvetica",
+                marginBottom: "25px"
+
+            }}>
+               KyselyLomake
+            </p>
+            
+            
             
         </div>
     );

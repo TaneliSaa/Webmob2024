@@ -7,7 +7,6 @@ const SormustenRitarit = () => {
     return (
 
         <div style={{
-            border: "1px solid red",
             width: "80%",
             height: "80%",
             position: "absolute",
@@ -22,11 +21,17 @@ const SormustenRitarit = () => {
             },
          }}>
 
-            <h1 style={{
-                color: 'white'
-             }}>
-                Kirja1
-            </h1>
+            <p style={{
+                fontSize: 25,
+                color: "white",
+                fontFamily: "Helvetica",
+                marginBottom: "25px"
+
+            }}>
+                "Sormusten ritarit on J.R.R. Tolkienin kirjoittama ensimmäinen osa Taru sormusten herrasta -trilogiasta. Kirja vie lukijan mukanaan Keski-Maahan, missä Frodo Reppulin elämä muuttuu odottamattomalla tavalla, kun hän saa tehtäväkseen kantaa mystistä sormusta kohti Mordoria. Frodo saa seurueekseen muiden rotujen edustajia ja heidän matkansa alkaa haltioiden kylästä nimeltään Rivendell. Kirja on täynnä jännittäviä kohtaamisia erilaisten olentojen ja voimien kanssa, paljon lauluja/runoja ja samalla kun se tutkii ystävyyden, rohkeuden ja hyvän voimaa pahuutta vastaan Keski-Maan lumoavassa fantasiamaailmassa.” 
+            </p>
+            
+            
             
         </div>
     );

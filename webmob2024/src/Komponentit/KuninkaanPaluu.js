@@ -6,7 +6,6 @@ const KuninkaanPaluu = () => {
     return (
 
         <div style={{
-            border: "1px solid red",
             width: "80%",
             height: "80%",
             position: "absolute",
@@ -21,11 +20,17 @@ const KuninkaanPaluu = () => {
             },
          }}>
 
-            <h1 style={{
-                color: 'white'
-             }}>
-                Kirja3
-            </h1>
+            <p style={{
+                fontSize: 25,
+                color: "white",
+                fontFamily: "Helvetica",
+                marginBottom: "25px"
+
+            }}>
+                "Kuninkaan paluu on J.R.R. Tolkienin trilogian viimeinen osa. Kirja on päätös edellisten kirjojen aloittamasta seikkailusta. Teoksessa seurataan Frodo Reppulin ja seurueen viimeistä taivalta kohti Mordoria, samalla kun Gondorin kuningas Aragorn valmistautuu suureen taisteluun Sauronin pahuutta vastaan. Kuninkaan paluu kuvaa ystävyyden, rohkeuden ja uhrautumisen teemoja sekä lopullista taistelua pimeyttä vastaan. Kirja tuo päätökseen trilogian monimutkaiset juonenkäänteet ja tarjoaa tyydyttävän lopun Keski-Maan kohtalonkäänteille.” 
+            </p>
+            
+            
             
         </div>
     );
