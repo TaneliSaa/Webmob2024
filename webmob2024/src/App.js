@@ -5,6 +5,8 @@ import { KaksiTornia } from "./Komponentit/KaksiTornia";
 import { SormustenRitarit } from "./Komponentit/SormustenRitarit";
 import { KuninkaanPaluu } from "./Komponentit/KuninkaanPaluu";
 import { KyselyLomake } from "./Komponentit/KyselyLomake";
+import taustakuva from "./Kuvia/black-and-gold-desktop-qsz2r17thuobr01j.jpg";
+import './jotain.css';
 
 const App = () => {
 
@@ -12,9 +14,24 @@ const App = () => {
 
   return (
 
-    <>
+    <div style={{
+      backgroundImage: `url(${taustakuva})`,
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      height: '100vh',
+      width: '100vw',
+    }}>
+     
+      
+      
+      
+  
+    
 
+      
       <Appbar />
+        
 
       <Routes>
         <Route path='/' element={<Etusivu />} />
@@ -24,7 +41,7 @@ const App = () => {
         <Route path='/KyselyLomake' element={<KyselyLomake />} />
       </Routes>
 
-    </>
+    </div>
 
   );
 };
