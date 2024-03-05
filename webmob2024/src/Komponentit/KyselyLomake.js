@@ -8,8 +8,8 @@ const KyselyLomake = () => {
 
         <>
           
-          <Container className="d-flex align-items-center justify-content-center min-vh-100">
-            <p style={{color: 'white'}}>LOLsadddddddddddddddddddddddddddddddddddddddddd</p>
+          <Container className="justify-content-center min-vh-100">
+            
           </Container>
 
 
