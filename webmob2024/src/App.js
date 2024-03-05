@@ -1,29 +1,39 @@
-import React from 'react';
-import { Appbar } from "./Komponentit/Appbar";
-import { Routes, Route } from 'react-router-dom';
-import { Etusivu } from "./Komponentit/Etusivu";
-import { KaksiTornia } from "./Komponentit/KaksiTornia";
-import { SormustenRitarit } from "./Komponentit/SormustenRitarit";
-import { KuninkaanPaluu } from "./Komponentit/KuninkaanPaluu";
-import { KyselyLomake } from "./Komponentit/KyselyLomake";
-import taustakuva from "./Kuvia/black-and-gold-desktop-qsz2r17thuobr01j.jpg";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Card from 'react-bootstrap/Card'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes,Route } from 'react-router-dom';
+import { Etusivu } from './Komponentit/Etusivu';
+import { SormustenRitarit } from './Komponentit/SormustenRitarit';
+import { KaksiTornia } from './Komponentit/KaksiTornia';
+import { KuninkaanPaluu } from './Komponentit/KuninkaanPaluu';
+import { KyselyLomake } from './Komponentit/KyselyLomake';
 import './jotain.css';
 
-
 const App = () => {
-  return (
-    <div style={{
-      backgroundImage: `url(${taustakuva})`,
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-      height: "100vh",
-      width: "100vw",
-      margin: 0,
-      padding: 0,
-    }}>
-      <Appbar />
 
+  return (
+    
+    <>
+
+      {/*Navbar*/}
+      <Navbar expand="lg" bg="transparent" className='justify-content-center'>
+        <Container>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
+            <Nav className="d-flex align-items-center justify-content-center">
+              <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/">Etusivu</Nav.Link>
+              <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/SormustenRitarit">Kirja1</Nav.Link>
+              <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/KaksiTornia">Kirja2</Nav.Link>
+              <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/KuninkaanPaluu">Kirja3</Nav.Link>
+              <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/Kyselylomake">Kyselylomake</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+      {/*Routterit*/}
       <Routes>
         <Route path='/' element={<Etusivu />} />
         <Route path='/SormustenRitarit' element={<SormustenRitarit />} />
@@ -32,8 +42,17 @@ const App = () => {
         <Route path='/KyselyLomake' element={<KyselyLomake />} />
       </Routes>
 
-    
-    </div>
+      {/*Footer*/}
+      <Card className="bottom w-100" bg="transparent">
+        <Card.Footer className="text-muted text-center">
+          <p style={{ fontSize: '15px', color: 'white'}}>Hobitti Hobittinen</p>
+          <p style={{ fontSize: '15px', color: 'white'}}>HH@gmail.com</p>
+          <p style={{ fontSize: '15px', color: 'white'}}>Hobbingtonintie 25A</p>
+          
+        </Card.Footer>
+      </Card>
+    </>
+
   );
 };
 

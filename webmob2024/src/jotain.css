@@ -1,6 +1,8 @@
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
-}
+    background-image: url('C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/black-and-gold-desktop-qsz2r17thuobr01j.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+  }
