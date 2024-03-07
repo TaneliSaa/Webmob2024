@@ -1,6 +1,9 @@
 import Container from "react-bootstrap/esm/Container";
 import kuva1 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/isaac-chou-D1NveCNtt2k-unsplash.jpg'
-import kuva2 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/conner-bowe-riw_BZvlMcI-unsplash.jpg'
+import kuva2 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/hobbit-7457589_1280.jpg'
+import kuva3 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/rivendell-7713475_1280.jpg'
+import kuva4 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/mountain-6213567_1280.jpg'
+import kuva5 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/golden-kingdom-8164867_1280.png'
 
 const Etusivu = () => {
 
@@ -41,7 +44,7 @@ const Etusivu = () => {
             <Container className="justify-content-center min-vh-20" style={containerStyle}>
               <div style={{ display: 'flex',flexDirection: 'column', alignItems: 'center' }}>
                 <img
-                  src={kuva1}
+                  src={kuva2}
                   style={imageStyle}
                 />
                 <p style={{color: 'white', fontSize: '20px'}}>
@@ -53,7 +56,7 @@ const Etusivu = () => {
             <Container className="justify-content-center min-vh-20" style={containerStyle}>
               <div style={{ display: 'flex',flexDirection: 'column', alignItems: 'center' }}>
                 <img
-                  src={kuva1}
+                  src={kuva3}
                   style={imageStyle}
                 />
                 <p style={{color: 'white', fontSize: '20px'}}>
@@ -65,7 +68,7 @@ const Etusivu = () => {
             <Container className="justify-content-center min-vh-20" style={containerStyle}>
               <div style={{ display: 'flex',flexDirection: 'column', alignItems: 'center' }}>
                 <img
-                  src={kuva1}
+                  src={kuva4}
                   style={imageStyle}
                 />
                 <p style={{color: 'white', fontSize: '20px'}}>
@@ -77,7 +80,7 @@ const Etusivu = () => {
             <Container className="justify-content-center min-vh-20" style={containerStyle}>
               <div style={{ display: 'flex',flexDirection: 'column', alignItems: 'center' }}>
                 <img
-                  src={kuva1}
+                  src={kuva5}
                   style={imageStyle}
                 />
                 <p style={{color: 'white', fontSize: '20px'}}>

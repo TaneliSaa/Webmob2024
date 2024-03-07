@@ -10,6 +10,7 @@ import { KaksiTornia } from './Komponentit/KaksiTornia';
 import { KuninkaanPaluu } from './Komponentit/KuninkaanPaluu';
 import { Kartat } from './Komponentit/Kartat';
 import './jotain.css';
+import kuva1 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/armor-1299709_1280.png'
 
 const App = () => {
 
@@ -20,6 +21,14 @@ const App = () => {
       {/*Navbar*/}
       <Navbar expand="lg" bg="transparent" className='justify-content-center'>
         <Container>
+          <Navbar.Brand href='/'>
+            <img 
+              src={kuva1}
+              alt='Logo'
+              height='50'
+              className='d-inline-block-align-top'
+            />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
             <Nav className="d-flex align-items-center justify-content-center">
