@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
 import kuva1 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/isaac-chou-D1NveCNtt2k-unsplash.jpg'
+import kuva2 from 'C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/conner-bowe-riw_BZvlMcI-unsplash.jpg'
 
 const Etusivu = () => {
 
@@ -13,6 +14,8 @@ const Etusivu = () => {
     width: '70%',
     marginBottom: '20px',
   }
+
+ 
     return (
 
         <>

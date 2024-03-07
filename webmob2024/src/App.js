@@ -8,7 +8,7 @@ import { Etusivu } from './Komponentit/Etusivu';
 import { SormustenRitarit } from './Komponentit/SormustenRitarit';
 import { KaksiTornia } from './Komponentit/KaksiTornia';
 import { KuninkaanPaluu } from './Komponentit/KuninkaanPaluu';
-import { KyselyLomake } from './Komponentit/KyselyLomake';
+import { Kartat } from './Komponentit/Kartat';
 import './jotain.css';
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
               <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/SormustenRitarit">Kirja1</Nav.Link>
               <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/KaksiTornia">Kirja2</Nav.Link>
               <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/KuninkaanPaluu">Kirja3</Nav.Link>
-              <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/Kyselylomake">Kyselylomake</Nav.Link>
+              <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white'}} href="/Kartat">Kartat</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -39,7 +39,7 @@ const App = () => {
         <Route path='/SormustenRitarit' element={<SormustenRitarit />} />
         <Route path='/KaksiTornia' element={<KaksiTornia />} />
         <Route path='/KuninkaanPaluu' element={<KuninkaanPaluu />} />
-        <Route path='/KyselyLomake' element={<KyselyLomake />} />
+        <Route path='/Kartat' element={<Kartat />} />
       </Routes>
 
       {/*Footer*/}
