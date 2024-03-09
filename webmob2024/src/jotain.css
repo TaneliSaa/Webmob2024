@@ -1,8 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('C:/Users/Tauno/Desktop/Webmob2024/webmob2024/src/Kuvia/black-and-gold-desktop-qsz2r17thuobr01j.jpg');
+    background-image: url('https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/black-and-gold-desktop-qsz2r17thuobr01j.jpg?csf=1&web=1&e=7lQM4n');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
+
+
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><rect width="30" height="2" fill="white"/><rect y="8" width="30" height="2" fill="white"/><rect y="16" width="30" height="2" fill="white"/><rect y="24" width="30" height="2" fill="white"/></svg>');
+  }
+
