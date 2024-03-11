@@ -1,5 +1,11 @@
 import Container from "react-bootstrap/esm/Container";
 
+import kuva1 from 'C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/isaac-chou-D1NveCNtt2k-unsplash.jpg'
+import kuva2 from 'C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/hobbit-7457589_1280.jpg'
+import kuva3 from 'C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/rivendell-7713475_1280.jpg'
+import kuva4 from 'C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/mountain-6213567_1280.jpg'
+import kuva5 from 'C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/golden-kingdom-8164867_1280.png'
+
 const Etusivu = () => {
 
   const containerStyle = {
@@ -23,7 +29,7 @@ const Etusivu = () => {
         <Container className="justify-content-center min-vh-20" style={containerStyle}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img
-              src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/isaac-chou-D1NveCNtt2k-unsplash.jpg?csf=1&web=1&e=EUPau8"
+              src={kuva1}
               style={imageStyle}
             />
             <p style={{ color: 'white', fontSize: '20px', textAlign: 'center', fontFamily: 'Papyrus' }}>
@@ -36,7 +42,7 @@ const Etusivu = () => {
         <Container className="justify-content-center min-vh-20" style={containerStyle}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img
-              src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/hobbit-7457589_1280.jpg?csf=1&web=1&e=J9ZgsV"
+              src={kuva2}
               style={imageStyle}
             />
             <p style={{ color: 'white', fontSize: '20px', fontFamily: 'Papyrus' }}>
@@ -48,7 +54,7 @@ const Etusivu = () => {
         <Container className="justify-content-center min-vh-20" style={containerStyle}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img
-              src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/rivendell-7713475_1280.jpg?csf=1&web=1&e=CNmtEI"
+              src={kuva3}
               style={imageStyle}
             />
             <p style={{ color: 'white', fontSize: '20px', fontFamily: 'Papyrus' }}>
@@ -60,7 +66,7 @@ const Etusivu = () => {
         <Container className="justify-content-center min-vh-20" style={containerStyle}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img
-              src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/mountain-6213567_1280.jpg?csf=1&web=1&e=O0hOMY"
+              src={kuva4}
               style={imageStyle}
             />
             <p style={{ color: 'white', fontSize: '20px', fontFamily: 'Papyrus' }}>
@@ -72,7 +78,7 @@ const Etusivu = () => {
         <Container className="justify-content-center min-vh-20" style={containerStyle}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img
-              src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/golden-kingdom-8164867_1280.png?csf=1&web=1&e=vvryxt"
+              src={kuva5}
               style={imageStyle}
             />
             <p style={{ color: 'white', fontSize: '20px', fontFamily: 'Papyrus' }}>

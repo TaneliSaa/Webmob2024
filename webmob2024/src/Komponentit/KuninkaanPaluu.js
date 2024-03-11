@@ -1,4 +1,5 @@
 import Container from "react-bootstrap/esm/Container";
+import kuva1 from 'C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/ring-4612457_1280.jpg'
 
 const KuninkaanPaluu = () => {
 
@@ -21,7 +22,7 @@ const KuninkaanPaluu = () => {
         <Container className="justify-content-center min-vh-20" style={containerStyle}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img
-              src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/ring-4612457_1280.jpg?csf=1&web=1&e=eZ9MOo"
+              src={kuva1}
               style={imageStyle}
             />
             <p style={{ color: 'white', fontSize: '20px', marginTop: '25px', fontFamily: 'Papyrus' }}>

@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/esm/Container";
-
+import kuva1 from "C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/lord-of-the-rings-6761163_640.jpg"
 const SormustenRitarit = () => {
 
   const containerStyle = {
@@ -22,7 +22,7 @@ const SormustenRitarit = () => {
         <Container className="justify-content-center min-vh-20" style={containerStyle}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img
-              src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/lord-of-the-rings-6761163_640.jpg?csf=1&web=1&e=YAyBI5"
+              src={kuva1}
               style={imageStyle}
             />
             <p style={{ color: 'white', fontSize: '20px', textAlign: 'center', fontFamily: 'Papyrus' }}>
