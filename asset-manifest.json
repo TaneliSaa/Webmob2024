@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Webmob2024/static/css/main.0971c929.css",
-    "main.js": "/Webmob2024/static/js/main.440b7193.js",
+    "main.js": "/Webmob2024/static/js/main.4f37080f.js",
     "static/js/453.7398ffbf.chunk.js": "/Webmob2024/static/js/453.7398ffbf.chunk.js",
+    "static/media/armor-1299709_1280.png": "/Webmob2024/static/media/armor-1299709_1280.f8b5fb76b62ed03c5976.png",
     "index.html": "/Webmob2024/index.html",
     "main.0971c929.css.map": "/Webmob2024/static/css/main.0971c929.css.map",
-    "main.440b7193.js.map": "/Webmob2024/static/js/main.440b7193.js.map",
+    "main.4f37080f.js.map": "/Webmob2024/static/js/main.4f37080f.js.map",
     "453.7398ffbf.chunk.js.map": "/Webmob2024/static/js/453.7398ffbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0971c929.css",
-    "static/js/main.440b7193.js"
+    "static/js/main.4f37080f.js"
   ]
 }
