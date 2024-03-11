@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/esm/Container";
-import kuva1 from 'C:Users/Tauno\Webmob2024\webmob2024\src\Kuvia\felipe-salgado-Z4BJfx59yqY-unsplash.jpg'
+import kuva1 from 'C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/felipe-salgado-Z4BJfx59yqY-unsplash.jpg'
 
 const KaksiTornia = () => {
 
