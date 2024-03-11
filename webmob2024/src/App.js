@@ -32,11 +32,11 @@ const App = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
       <Nav className="d-flex align-items-center justify-content-center">
-        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="/">Etusivu</Nav.Link>
-        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="/SormustenRitarit">Sormusten ritarit</Nav.Link>
-        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="/KaksiTornia">Kaksi tornia</Nav.Link>
-        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="/KuninkaanPaluu">Kuninkaan paluu</Nav.Link>
-        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="/Kartat">Kartat</Nav.Link>
+        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="#/">Etusivu</Nav.Link>
+        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="#/SormustenRitarit">Sormusten ritarit</Nav.Link>
+        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="#/KaksiTornia">Kaksi tornia</Nav.Link>
+        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="#/KuninkaanPaluu">Kuninkaan paluu</Nav.Link>
+        <Nav.Link style={{ fontSize: '25px', marginRight: '25px', color: 'white', fontFamily: 'Papyrus'}} href="#/Kartat">Kartat</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
