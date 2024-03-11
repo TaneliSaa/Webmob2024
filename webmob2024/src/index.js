@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {App} from './App';
+import { Routes,Route } from 'react-router-dom';
+import { Etusivu } from './Komponentit/Etusivu';
+import { SormustenRitarit } from './Komponentit/SormustenRitarit';
+import { KaksiTornia } from './Komponentit/KaksiTornia';
+import { KuninkaanPaluu } from './Komponentit/KuninkaanPaluu';
+import { Kartat } from './Komponentit/Kartat';
+
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
