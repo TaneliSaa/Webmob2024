@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/Webmob2024/static/css/main.0971c929.css",
-    "main.js": "/Webmob2024/static/js/main.4f37080f.js",
+    "main.css": "/Webmob2024/static/css/main.bc6f6c29.css",
+    "main.js": "/Webmob2024/static/js/main.f7857627.js",
     "static/js/453.7398ffbf.chunk.js": "/Webmob2024/static/js/453.7398ffbf.chunk.js",
+    "static/media/isaac-chou-D1NveCNtt2k-unsplash.jpg": "/Webmob2024/static/media/isaac-chou-D1NveCNtt2k-unsplash.4122636c0c5df7715639.jpg",
+    "static/media/golden-kingdom-8164867_1280.png": "/Webmob2024/static/media/golden-kingdom-8164867_1280.926227e867b52cd0febd.png",
     "static/media/armor-1299709_1280.png": "/Webmob2024/static/media/armor-1299709_1280.f8b5fb76b62ed03c5976.png",
+    "static/media/felipe-salgado-Z4BJfx59yqY-unsplash.jpg": "/Webmob2024/static/media/felipe-salgado-Z4BJfx59yqY-unsplash.d632c89fbe9249b9d2bf.jpg",
+    "static/media/rivendell-7713475_1280.jpg": "/Webmob2024/static/media/rivendell-7713475_1280.0d027da57a58b4bc8301.jpg",
+    "static/media/hobbit-7457589_1280.jpg": "/Webmob2024/static/media/hobbit-7457589_1280.121752d476519125ef37.jpg",
+    "static/media/ring-4612457_1280.jpg": "/Webmob2024/static/media/ring-4612457_1280.2316c088593491159cd1.jpg",
+    "static/media/mountain-6213567_1280.jpg": "/Webmob2024/static/media/mountain-6213567_1280.611d86b30e278aad658b.jpg",
+    "static/media/lord-of-the-rings-6761163_640.jpg": "/Webmob2024/static/media/lord-of-the-rings-6761163_640.38820448c15351b877fb.jpg",
+    "static/media/black-and-gold-desktop-qsz2r17thuobr01j.jpg": "/Webmob2024/static/media/black-and-gold-desktop-qsz2r17thuobr01j.0b4746707ffe76a9879f.jpg",
     "index.html": "/Webmob2024/index.html",
-    "main.0971c929.css.map": "/Webmob2024/static/css/main.0971c929.css.map",
-    "main.4f37080f.js.map": "/Webmob2024/static/js/main.4f37080f.js.map",
+    "main.bc6f6c29.css.map": "/Webmob2024/static/css/main.bc6f6c29.css.map",
+    "main.f7857627.js.map": "/Webmob2024/static/js/main.f7857627.js.map",
     "453.7398ffbf.chunk.js.map": "/Webmob2024/static/js/453.7398ffbf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0971c929.css",
-    "static/js/main.4f37080f.js"
+    "static/css/main.bc6f6c29.css",
+    "static/js/main.f7857627.js"
   ]
 }
