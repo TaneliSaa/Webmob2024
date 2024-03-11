@@ -9,7 +9,7 @@ const SormustenRitarit = () => {
   }
 
   const imageStyle = {
-    width: '50%',
+    width: '100%',
     marginBottom: '20px',
   }
   return (

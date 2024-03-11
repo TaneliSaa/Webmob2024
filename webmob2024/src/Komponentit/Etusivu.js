@@ -15,7 +15,7 @@ const Etusivu = () => {
   }
 
   const imageStyle = {
-    width: '70%',
+    width: '100%',
     marginBottom: '20px',
   }
 
