@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Webmob2024/static/css/main.0971c929.css",
-    "main.js": "/Webmob2024/static/js/main.0c2f5e0f.js",
+    "main.js": "/Webmob2024/static/js/main.440b7193.js",
     "static/js/453.7398ffbf.chunk.js": "/Webmob2024/static/js/453.7398ffbf.chunk.js",
     "index.html": "/Webmob2024/index.html",
     "main.0971c929.css.map": "/Webmob2024/static/css/main.0971c929.css.map",
-    "main.0c2f5e0f.js.map": "/Webmob2024/static/js/main.0c2f5e0f.js.map",
+    "main.440b7193.js.map": "/Webmob2024/static/js/main.440b7193.js.map",
     "453.7398ffbf.chunk.js.map": "/Webmob2024/static/js/453.7398ffbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0971c929.css",
-    "static/js/main.0c2f5e0f.js"
+    "static/js/main.440b7193.js"
   ]
 }
