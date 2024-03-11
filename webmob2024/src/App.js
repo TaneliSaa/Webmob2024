@@ -21,7 +21,7 @@ const App = () => {
       {/* Navbar */}
       <Navbar expand="lg" bg="transparent" className='justify-content-center'>
         <Container>
-          <Navbar.Brand href='/'>
+          <Navbar.Brand href='#/'>
             <img
               src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/armor-1299709_1280.png?csf=1&web=1&e=Dec7P1"
               alt='Logo'
