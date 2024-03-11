@@ -11,6 +11,9 @@ import { KuninkaanPaluu } from './Komponentit/KuninkaanPaluu';
 import { Kartat } from './Komponentit/Kartat';
 import './jotain.css';
 
+import kuva1 from 'C:/Users/Tauno/Webmob2024/webmob2024/src/Kuvia/armor-1299709_1280.png'
+
+
 
 const App = () => {
 
@@ -23,7 +26,7 @@ const App = () => {
         <Container>
           <Navbar.Brand href='#/'>
             <img
-              src="https://studentuef-my.sharepoint.com/:i:/r/personal/tanesaar_uef_fi/Documents/Web-%20ja%20mobiilik%C3%A4ytt%C3%B6liittym%C3%A4t%20Projekti/Projekti/Kuvat/armor-1299709_1280.png?csf=1&web=1&e=Dec7P1"
+              src={kuva1}
               alt='Logo'
               height='50'
               className='d-inline-block-align-top'
