@@ -1,7 +1,8 @@
 {
   "name": "webmob2024",
   "version": "0.1.0",
-  "private": false,
+  "homepage": "https://tanelisaa.github.io/Webmob2024",
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -20,7 +21,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "homepage": "https://tanelisaa.github.io/Webmob2024/",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
