@@ -10,7 +10,7 @@ import { KaksiTornia } from './Komponentit/KaksiTornia';
 import { KuninkaanPaluu } from './Komponentit/KuninkaanPaluu';
 import { Kartat } from './Komponentit/Kartat';
 import './jotain.css';
-import kuva1 from 'C:/Users/Taneli Saarenkunnas/Webmob2024/webmob2024/src/Kuvia/armor-1299709_1280.png'
+
 
 const App = () => {
 
